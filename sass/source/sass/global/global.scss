@@ -2,12 +2,13 @@
 .page__body {
   font-family: "montserrat", "Arial", sans-serif;
   font-size: 12px;
+  margin: 0;
 }
 
 a {
   list-style-type: none;
   text-decoration: none;
-  color: $base-black;
+  color: inherit;
 }
 
 .badge {
