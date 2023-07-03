@@ -15,9 +15,14 @@
 
   @media (min-width: $tablet-width) {
     gap: 2px;
+    max-width: 400px;
+    flex-wrap: wrap;
+    z-index: 4;
+    background-color: $base-white;
   }
 
   @media (min-width: $desktop-width) {
+    max-width: 600px;
     gap: 22px;
   }
 
