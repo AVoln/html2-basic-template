@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Drink2Go</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" type="image/svg+xml" href="img/favicons/favicon.svg">
@@ -23,7 +23,7 @@
     <!-- Открыть меню - добавь класс main-nav--opened -->
     <nav class="main-nav">
       <div class="main-nav__wrapper">
-        <a class="main-nav__logo">
+        <a class="main-nav__logo" href="https://htmlacademy.ru/intensive/adaptive">
           <picture>
             <source media="(min-width:1440px)" srcset="./img/logo/logo-desktop.svg" width="170" height="36">
             <source media="(min-width:768px)" srcset="./img/logo/logo-tablet.svg" width="82" height="36">
@@ -184,8 +184,12 @@
           </li>
         </ul>
         <div class="slider__arrows">
-          <button class="slider__arrow slider__arrow--left swiper-button-prev" type="button"></button>
-          <button class="slider__arrow slider__arrow--right swiper-button-next" type="button"></button>
+          <button class="slider__arrow slider__arrow--left swiper-button-prev" type="button">
+            <span class="visually-hidden">Предыдущий слайд.</span>
+          </button>
+          <button class="slider__arrow slider__arrow--right swiper-button-next" type="button">
+            <span class="visually-hidden">Следующий слайд.</span>
+          </button>
         </div>
         <div class="slider__steps-wrapper">
           <div class="slider__steps swiper-pagination">
@@ -590,7 +594,7 @@
     <footer class="footer">
       <div class="footer__inner">
         <div class="footer__wrapper">
-          <a class="footer__logo" href="#">
+          <a class="footer__logo" href="https://htmlacademy.ru/intensive/adaptive">
             <picture>
               <source media="(min-width: 1440px)" srcset="img/logo/logo-desktop.svg" width="170" height="36">
               <source media="(min-width: 768px)" srcset="img/logo/logo-desktop.svg" width="170" height="36">
